@@ -1,6 +1,6 @@
 
 德州扑克源码，德州游戏，德州俱乐部，德州私人局，德州朋友局，支持联盟模式。支持多个国家语言，刚刚停服的线上德州项目；德州金币大厅游戏；里面有八个德州玩法，可以语音聊天，视频打牌，支持联盟，产品质量远超同类的hhpoker和wpk；
-如有意向购买;Telegram:@xuzongbin001   或E-mail；masterai918@gmail.com
+如有意向;Telegram:@xuzongbin001   或E-mail；masterai918@gmail.com
 
 Texas Hold'em source code, Texas Hold'em game, Texas Hold'em club, Texas Hold'em private game, Texas Hold'em friend game, support alliance mode. Texas Hold'em gold coin lobby game; there are eight Texas Hold'em gameplays, voice chat, video playing, support alliance, product quality far exceeds similar hhpoker and wpk;
 If you are interested in purchasing; Telegram: @xuzongbin001 or E-mail; masterai918@gmail.com
@@ -22,3 +22,4 @@ If you are interested in purchasing; Telegram: @xuzongbin001 or E-mail; masterai
 ![微信图片_20250515115834](https://github.com/user-attachments/assets/e7ac28c3-d625-485b-ade8-30c05e05f51d)
 ![微信图片_20250515114608](https://github.com/user-attachments/assets/a0d9a3fb-dc4c-47b3-b44f-f1653c0f557a)
 ![微信图片_20250515114530](https://github.com/user-attachments/assets/9bd75e87-accd-4558-83f5-ec31f5db251c)
+
