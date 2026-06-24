@@ -1,0 +1,101 @@
+#include "/home/tarsproto/XGame/Comm/JFGame.tars"
+
+module order
+{
+    // 支付
+    enum Eum_Channel_Type
+    {
+        E_CHANNEL_DEFAULT       = 0,
+        E_CHANNEL_IOS           = 1,
+        E_CHANNEL_GOOGLEPLAY    = 2,
+    };
+
+    enum Eun_Order_Env
+    {
+        E_ORDER_ENV_DEFAULT =   0,
+        E_ORDER_ENV_DEBUG   =   1,
+        E_ORDER_ENV_RELEASE =   2,
+    };
+
+    enum Eum_Purchase_Type
+    {
+        E_PURCHASE_NONE         = 0,
+        E_PURCHASE_GOLD         = 1,
+        E_PURCHASE_INTEGRAL     = 2,
+        E_PURCHASE_PIG          = 3,
+        E_PURCHASE_LUCKPACK     = 4,
+        E_PURCHASE_SPECIALPACK  = 5,
+        E_PURCHASE_RECHARGE     = 6,
+    };
+
+    // 请求URL和方法以及参数在服务器生成
+    struct OrderYieldReq
+    {
+        0 require Eum_Channel_Type  type;
+        1 require bool              isSandBox;
+        3 require int               qrCode;
+        4 require string            product_id;
+        5 require string            google_order_num;
+        6 require long              uid;
+    };
+
+    struct OrderYieldResp
+    {
+        0 require string    orderNum;
+        1 require int       resultCode;
+    };
+
+    struct OrderVerifyReq
+    {
+        0 require string    orderNum;
+        1 require string    credential;// JSON 格式
+        2 require long      uid;
+        3 require string    transaction_id;//交易ID
+    };
+
+    struct OrderVerifyResp
+    {
+        0 require int resultCode;
+        1 require string identity;
+        2 require string json;
+        3 require Eum_Channel_Type type;//渠道号
+    };
+
+    struct ConsumptionVerifyReq
+    {
+        0 require string          orderNum; // 服务器产生的订单号
+        1 require long            uid;
+    };
+
+    struct ConsumptionVerifyResp
+    {
+        0 require int       resultCode;
+        1 require string    json;        //  type :  交易类型
+                                        //  data :  额外数据 ---上限/金币或者钻石数量
+    };
+
+    struct WhiteListInfo
+    {
+        0 require int id;
+        1 require long uid;
+        2 require int createtime;
+    };
+
+/**
+*
+*/   
+interface OrderServant
+{
+    //产生订单
+    int orderYield(OrderYieldReq req, out OrderYieldResp rsp);
+
+    //校验订单
+    int orderVerify(OrderVerifyReq req, out OrderVerifyResp rsp);
+
+    //消费，补单
+    int consumptionVerify(ConsumptionVerifyReq req, out ConsumptionVerifyResp rsp);
+
+    //tcp请求处理接口
+    int onRequest(long lUin, string sMsgPack, string sCurServrantAddr, JFGame::TClientParam stClientParam, JFGame::UserBaseInfoExt stUserBaseInfo);
+};
+}; 
