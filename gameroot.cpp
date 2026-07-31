@@ -76,6 +76,7 @@ namespace game
             if (room_type == 3 || room_type == 9)
             {
                 index = this->roomid()[3] - '1';
+                DLOG_TRACE("wzl=== " << index);
             }
             cfg->setInitBetTime(room_type, index);
         }
