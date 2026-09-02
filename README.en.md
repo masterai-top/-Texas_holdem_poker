@@ -112,7 +112,7 @@ the code has been battle-tested through years of live operation—this is not me
 - **Database**: MySQL + Redis
 
 
-## 📦 Deliverables
+## 📦 support
 
 
 - Complete server source code (C++)
