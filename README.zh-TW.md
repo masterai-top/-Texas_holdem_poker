@@ -162,7 +162,7 @@ This is a multiplayer Texas Hold’em poker game platform.
 - **資料庫**：MySQL + Redis
 
 
-## 📦 交付內容
+## 📦 资源包
 
 
 - 完整服務端原始碼 (C++)
