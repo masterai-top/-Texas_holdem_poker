@@ -113,7 +113,7 @@ This is a multiplayer Texas Hold’em poker game platform.
 - **数据库**：MySQL + Redis
 
 
-## 📦 交付内容
+## 📦 资源包
 
 
 - 完整服务端源码 (C++)
