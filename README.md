@@ -1,35 +1,46 @@
-# 🃏  德州扑克游戏平台 |德州源码| 多人扑克系统|德州扑克源码 | 德州撲克源碼 |德州撲克|德州俱樂部|德州私人局 | Texas Hold'em Poker Complete Source Code
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-> **线上稳定运营多年 | 俱乐部+联盟+私人局 | 10+种玩法 | 刚停服，全套源码可售**
-💡 Build your own poker platform in minutes  
+# 德州扑克游戏平台 |德州源码| H5 与 Web 在线德州扑克平台
+
+> **线上稳定运营多年 | 俱乐部+联盟+私人局 | 10+种玩法 | 刚停服，全套源码可出**
 💡 快速搭建属于你的德州扑克平台  
 💡 快速建立自己的德州撲克系統  
+
 
 🔥 Online Multiplayer System  
 🔥 Club + Agent System  
 🔥 Real-Time Gameplay  
+
 
 👉 🚀 Demo Available  
 👉 📩 Contact for Full Version  
 🔥 Multiplayer Poker System | 多人德州扑克系统  
 👉 Game Server + Lobby + Club + Tournament  
 
+
 ---
+
 
 ## 🧠 Project Overview
 
+
 This is a multiplayer Texas Hold’em poker game platform.  
 本项目是一套多人德州扑克游戏平台系统。
+
 
 [![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
 [![Platform](https://img.shields.io/badge/客户端-Unity%20iOS%2FAndroid-green)]()
 [![Backend](https://img.shields.io/badge/服务端-C%2B%2B-red)]()
 
+
 ---
+
 
 ## ✨ 为什么选择这套源码？
 
+
 本项目是**刚刚停服的线上真实项目**，代码经过多年运营验证，绝非Demo。
+
 
 | 核心优势 | 说明 |
 | :--- | :--- |
@@ -40,11 +51,13 @@ This is a multiplayer Texas Hold’em poker game platform.
 | 🌍 **多国语言** | 支持多个国家语言，适合出海 |
 | 💰 **真实项目** | 刚刚停服，代码稳定，可直接上线 |
 
+
 ### 🇨🇳 简体中文
 - 完整德州扑克系统  
 - 支持多人实时对战  
 - 内置俱乐部与代理体系  
 - 可直接部署或二次开发  
+
 
 ### 🇹🇼 繁體中文
 - 完整德州撲克系統  
@@ -52,7 +65,9 @@ This is a multiplayer Texas Hold’em poker game platform.
 - 內建俱樂部與代理系統  
 - 可部署與客製化  
 
+
 ## ✨ 核心亮点
+
 
 | 特性 | 说明 |
 | :--- | :--- |
@@ -60,7 +75,8 @@ This is a multiplayer Texas Hold’em poker game platform.
 | 👥 **社交系统** | 俱乐部、联盟、朋友局（私人局）、语音视频聊天 |
 | 🏗️ **成熟代码** | 真实运营2年，刚停服，代码稳定无bug |
 | 📱 **双端支持** | Unity客户端 → iOS + Android |
-| ⚙️ **高性能后端** | C++编写，支持高并发 |
+| ⚙️ **高性能后端** | C++编写，支持并发能力需以公开测试结果验证 |
+
 
 ## 🎯 功能清单
 ✅ 俱乐部系统 ✅ 联盟模式 ✅ 私人局/朋友局
@@ -70,6 +86,7 @@ This is a multiplayer Texas Hold’em poker game platform.
 
 
 ## ✨ Key Features 
+
 
 - 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
 - 🏆 Club System（俱乐部系统）  
@@ -90,11 +107,14 @@ This is a multiplayer Texas Hold’em poker game platform.
 
 ## 🚀 技术栈
 
+
 - **客户端**：Unity (C#) - 支持iOS/Android
 - **服务端**：C++ - 高性能稳定运行
 - **数据库**：MySQL + Redis
 
+
 ## 📦 交付内容
+
 
 - 完整服务端源码 (C++)
 - 完整客户端源码 (Unity)
@@ -102,21 +122,25 @@ This is a multiplayer Texas Hold’em poker game platform.
 - 部署文档
 - 美术资源包
 
+
 ## 💰 获取完整源码
+
 
 📱 **Telegram：@xuzongbin001**  
 📧 **Email：masterai918@gmail.com**
 
-👉 **联系我获取演示视频 + 详细报价**
 
-## 🎮 Demo | 演示 | 演示
 
-See real gameplay below 👇  
-查看游戏实际画面 👇  
+
+## 🎮 Demo | 演示 
+
+
+ 
 查看實際遊戲畫面 👇 
 ![4房间2-9人桌](https://github.com/user-attachments/assets/ad203631-b3a9-4df2-bae9-949afcb0ef8f)
 ![微信图片_20250515120021](https://github.com/user-attachments/assets/08c0b51e-2c6a-4d93-a5c3-ee8cc99091e5)
 ![4房间2-6人桌](https://github.com/user-attachments/assets/bcc34562-7f11-4ccc-a151-ead7c190046f)
+
 
 ![微信图片_20250515120009](https://github.com/user-attachments/assets/bfa23dfe-b9a4-4a9e-bb3b-aa7707454094)
 
@@ -133,22 +157,20 @@ See real gameplay below 👇
 ![微信图片_20250515114530](https://github.com/user-attachments/assets/9bd75e87-accd-4558-83f5-ec31f5db251c)
 ---
 
+
 ⭐ 如果觉得项目有价值，请Star支持一下～
 
 
 ---
 
 
-
 ---
 
+
 ## ✅ 加徽章（信任提升）
+
 
 ```markdown
 ![Stars](https://img.shields.io/github/stars/masterai-top/Texas-game-source-code?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/masterai-top/Texas-game-source-code)
-
-
-
-
-
+```
